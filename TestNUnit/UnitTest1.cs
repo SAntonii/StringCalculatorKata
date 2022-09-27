@@ -84,10 +84,5 @@ namespace TestNUnit
         {
             Assert.That(() => StringCalkulator.Add(s), Is.EqualTo(v));
         }
-        [TestCase("//[***][%%%]\n1***2%%%3", 6)]
-        public void TestAdd12(string s, int v)
-        {
-            Assert.That(() => StringCalkulator.Add(s), Is.EqualTo(v));
-        }
     }
 }
