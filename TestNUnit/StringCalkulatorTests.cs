@@ -2,7 +2,7 @@ using StringCalculatorKata;
 
 namespace TestNUnit
 {
-    public class Tests
+    public class StringCalkulatorTests
     {
         [SetUp]
         public void Setup()
